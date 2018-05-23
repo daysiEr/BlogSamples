@@ -23,6 +23,7 @@ namespace LongRunningProcess {
 				});
 			context.Response.ContentType = "text/plain";
 			context.Response.Write("Task started");
+
 		}
 
 		public void Log(string connectionId, string message) {
